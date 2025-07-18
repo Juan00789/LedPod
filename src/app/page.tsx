@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { ArrowRight, MapPin } from 'lucide-react';
+import { ArrowRight, Instagram, MessageCircle } from 'lucide-react';
 import { productCategories, testimonials } from '@/lib/data';
 
 export default function Home() {
@@ -179,7 +179,7 @@ export default function Home() {
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-card">
           <div className="container grid items-center justify-center gap-8 px-4 md:px-6 lg:grid-cols-2 lg:gap-16">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl font-headline">Contáctanos</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl font-headline">Contactanos</h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
                 ¿Tienes alguna pregunta o necesitas asesoría personalizada? Escríbenos y te ayudaremos a dar vida a tus ideas.
               </p>
@@ -192,17 +192,27 @@ export default function Home() {
                 </form>
               </div>
             </div>
-            <div className="space-y-4">
-               <h3 className="text-2xl font-bold tracking-tighter md:text-3xl font-headline">Visítanos</h3>
-                <div className="flex items-start gap-4">
-                  <MapPin className="h-8 w-8 text-primary mt-1"/>
-                  <div>
-                    <p className="font-semibold">Nuestros Showrooms</p>
-                    <p className="text-muted-foreground">Asunción y Encarnación, Paraguay</p>
-                  </div>
-                </div>
-                <div className="aspect-video w-full overflow-hidden rounded-xl">
-                    <Image src="https://placehold.co/600x400.png" width="600" height="400" alt="Store Location" data-ai-hint="store map" className="object-cover w-full h-full" />
+            <div className="space-y-6">
+               <h3 className="text-2xl font-bold tracking-tighter md:text-3xl font-headline">Comunícate directamente</h3>
+                <div className="flex flex-col gap-4">
+                  <a href="https://wa.me/18498865556" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 group">
+                    <div className="p-3 rounded-full bg-primary/20 group-hover:bg-primary/30 transition-colors">
+                      <MessageCircle className="h-8 w-8 text-primary"/>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-lg">WhatsApp</p>
+                      <p className="text-muted-foreground group-hover:text-foreground transition-colors">+1 (849) 886-5556</p>
+                    </div>
+                  </a>
+                  <a href="https://www.instagram.com/ledpop_/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 group">
+                     <div className="p-3 rounded-full bg-primary/20 group-hover:bg-primary/30 transition-colors">
+                      <Instagram className="h-8 w-8 text-primary"/>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-lg">Instagram</p>
+                      <p className="text-muted-foreground group-hover:text-foreground transition-colors">@ledpop_</p>
+                    </div>
+                  </a>
                 </div>
             </div>
           </div>
