@@ -10,7 +10,7 @@ export default function StyleAdvisorPage() {
             <Lightbulb className="h-10 w-10 text-primary" />
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline">
-            Asesor de Estilo con IA
+            Contactanos
           </h1>
           <p className="mt-4 text-lg md:text-xl text-muted-foreground">
             ¿No sabes por dónde empezar? Describe el ambiente de tus sueños y deja que nuestra inteligencia artificial te sugiera las combinaciones de productos perfectas para hacerlo realidad.
