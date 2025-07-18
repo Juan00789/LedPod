@@ -183,14 +183,6 @@ export default function Home() {
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
                 ¿Tienes alguna pregunta o necesitas asesoría personalizada? Escríbenos y te ayudaremos a dar vida a tus ideas.
               </p>
-              <div className="space-y-4">
-                <form className="space-y-4">
-                  <Input type="text" placeholder="Nombre" className="max-w-lg" />
-                  <Input type="email" placeholder="Correo Electrónico" className="max-w-lg" />
-                  <Textarea placeholder="Tu Mensaje" className="max-w-lg" />
-                  <Button type="submit">Enviar Mensaje</Button>
-                </form>
-              </div>
             </div>
             <div className="space-y-6">
                <h3 className="text-2xl font-bold tracking-tighter md:text-3xl font-headline">Comunícate directamente</h3>
