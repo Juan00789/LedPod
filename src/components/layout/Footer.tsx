@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Logo } from '@/components/icons/Logo';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Twitter, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -36,8 +36,13 @@ export default function Footer() {
             <h4 className="font-semibold font-headline">Contacto</h4>
             <ul className="space-y-1 text-sm text-muted-foreground">
               <li>Email: info@ledpop.com</li>
-              <li>Teléfono: +1 (809) 739-3833</li>
-              <li>WhatsApp: +1 (849) 886-5556</li>
+              <li>Teléfono Local: +1(809)7393833</li>
+              <li>
+                <a href="https://wa.me/18498865556" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+                  <MessageCircle className="h-4 w-4" />
+                  WhatsApp: +1 (849) 886-5556
+                </a>
+              </li>
               <li>Showrooms en Asunción y Encarnación</li>
             </ul>
           </div>
