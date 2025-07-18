@@ -37,6 +37,7 @@ export default function Footer() {
             <ul className="space-y-1 text-sm text-muted-foreground">
               <li>Email: info@ledpop.com</li>
               <li>Teléfono: 0983 233 433</li>
+              <li>WhatsApp: +1 (849) 886-5556</li>
               <li>Showrooms en Asunción y Encarnación</li>
             </ul>
           </div>
