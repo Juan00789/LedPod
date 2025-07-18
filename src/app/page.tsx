@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { ArrowRight, Instagram, MessageCircle } from 'lucide-react';
+import { ArrowRight, Instagram, MessageCircle, MapPin } from 'lucide-react';
 import { productCategories, testimonials } from '@/lib/data';
 
 export default function Home() {
@@ -213,6 +213,15 @@ export default function Home() {
                       <p className="text-muted-foreground group-hover:text-foreground transition-colors">@ledpop_</p>
                     </div>
                   </a>
+                   <div className="inline-flex items-center gap-3 group">
+                     <div className="p-3 rounded-full bg-primary/20">
+                      <MapPin className="h-8 w-8 text-primary"/>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-lg">Nuestra Tienda</p>
+                      <p className="text-muted-foreground">Luego de la escuela, al lado de alexy moto pieza, Av. Manolo Tavarez Justo, Puerto Plata 57000</p>
+                    </div>
+                  </div>
                 </div>
             </div>
           </div>

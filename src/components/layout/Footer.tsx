@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Logo } from '@/components/icons/Logo';
-import { Facebook, Instagram, Twitter, MessageCircle } from 'lucide-react';
+import { Facebook, Instagram, Twitter, MessageCircle, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -42,6 +42,10 @@ export default function Footer() {
                   <MessageCircle className="h-4 w-4" />
                   WhatsApp: +1 (849) 886-5556
                 </a>
+              </li>
+               <li className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-1 shrink-0" />
+                <span>Luego de la escuela, al lado de alexy moto pieza, Av. Manolo Tavarez Justo, Puerto Plata 57000</span>
               </li>
             </ul>
           </div>
