@@ -10,7 +10,7 @@ export default function ProductsPage() {
       <header className="text-center mb-12 md:mb-16">
         <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight">Nuestro Catálogo</h1>
         <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl">
-          Descubre la gama completa de productos LedPod, diseñados para dar vida, estilo y funcionalidad a tus espacios.
+          Descubre la gama completa de productos LedPop, diseñados para dar vida, estilo y funcionalidad a tus espacios.
         </p>
       </header>
 

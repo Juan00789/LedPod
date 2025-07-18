@@ -148,13 +148,13 @@ export const testimonials: Testimonial[] = [
     projectImageHint: 'family home interior'
   },
   {
-    quote: 'Encontré la lámpara perfecta que buscaba hace meses. El equipo de LedPod me ayudó a elegir la ideal para mi comedor.',
+    quote: 'Encontré la lámpara perfecta que buscaba hace meses. El equipo de LedPop me ayudó a elegir la ideal para mi comedor.',
     author: 'Sofía Rodríguez',
     projectImage: 'https://placehold.co/400x250.png',
     projectImageHint: 'elegant dining room'
   },
    {
-    quote: 'El WPC para mi terraza fue la mejor inversión. Se ve increíble y el mantenimiento es mínimo. ¡Gracias, LedPod!',
+    quote: 'El WPC para mi terraza fue la mejor inversión. Se ve increíble y el mantenimiento es mínimo. ¡Gracias, LedPop!',
     author: 'Javier Castillo',
     projectImage: 'https://placehold.co/400x250.png',
     projectImageHint: 'modern patio'

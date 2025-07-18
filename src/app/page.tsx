@@ -19,7 +19,7 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-20">
               <div className="flex flex-col justify-center space-y-4">
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary">
-                  LedPod 🎇
+                  LedPop 🎇
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl font-body">
                   Bienvenidos a tu espacio de iluminación y decoración ideal. Transformamos tu hogar con luces, decoraciones, y mucho más para crear ambientes únicos.
@@ -197,8 +197,8 @@ export default function Home() {
                 <div className="flex items-start gap-4">
                   <MapPin className="h-8 w-8 text-primary mt-1"/>
                   <div>
-                    <p className="font-semibold">Nuestra Tienda Física</p>
-                    <p className="text-muted-foreground">123 Calle Ficticia, Ciudad Ejemplo, País</p>
+                    <p className="font-semibold">Nuestros Showrooms</p>
+                    <p className="text-muted-foreground">Asunción y Encarnación, Paraguay</p>
                   </div>
                 </div>
                 <div className="aspect-video w-full overflow-hidden rounded-xl">

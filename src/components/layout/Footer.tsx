@@ -35,28 +35,22 @@ export default function Footer() {
           <div className="space-y-2">
             <h4 className="font-semibold font-headline">Contacto</h4>
             <ul className="space-y-1 text-sm text-muted-foreground">
-              <li>Email: info@ledpod.com</li>
-              <li>Teléfono: +1 (234) 567-890</li>
-              <li>Dirección: 123 Calle Ficticia, Ciudad Ejemplo</li>
+              <li>Email: info@ledpop.com</li>
+              <li>Teléfono: 0983 233 433</li>
+              <li>Showrooms en Asunción y Encarnación</li>
             </ul>
           </div>
           <div className="space-y-2">
             <h4 className="font-semibold font-headline">Síguenos</h4>
             <div className="flex items-center space-x-4">
-              <Link href="#" aria-label="Facebook">
-                <Facebook className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
-              </Link>
-              <Link href="#" aria-label="Instagram">
+              <Link href="https://www.instagram.com/ledpop_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
-              </Link>
-              <Link href="#" aria-label="Twitter">
-                <Twitter className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
               </Link>
             </div>
           </div>
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} LedPod. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} LedPop. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

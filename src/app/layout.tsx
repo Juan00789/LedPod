@@ -6,7 +6,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: 'LedPod - Iluminación y Decoración',
+  title: 'LedPop - Iluminación y Decoración',
   description: 'Tu espacio de iluminación y decoración ideal.',
 };
 

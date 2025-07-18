@@ -42,7 +42,7 @@ const prompt = ai.definePrompt({
   name: 'suggestProductCombinationsPrompt',
   input: {schema: SuggestProductCombinationsInputSchema},
   output: {schema: SuggestProductCombinationsOutputSchema},
-  prompt: `You are an expert interior designer with a deep knowledge of LedPod's product catalog.  A user will describe their desired room aesthetic, and you will suggest product combinations from LedPod's catalog to create a harmonious environment.  Explain your reasoning for each combination.
+  prompt: `You are an expert interior designer with a deep knowledge of LedPop's product catalog.  A user will describe their desired room aesthetic, and you will suggest product combinations from LedPop's catalog to create a harmonious environment.  Explain your reasoning for each combination.
 
 User's desired room aesthetic: {{{roomDescription}}}
 
