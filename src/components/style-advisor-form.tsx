@@ -1,11 +1,11 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState, useEffect } from 'react';
+import { useFormStatus } from 'react-dom';
 import { getStyleSuggestions } from '@/app/style-advisor/actions';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { Wand2, Loader, AlertTriangle } from 'lucide-react';
 
@@ -35,7 +35,7 @@ function SubmitButton() {
 }
 
 export function StyleAdvisorForm() {
-  const [state, formAction] = useFormState(getStyleSuggestions, initialState);
+  const [state, formAction] = useActionState(getStyleSuggestions, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
