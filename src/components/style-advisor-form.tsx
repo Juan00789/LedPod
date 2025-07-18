@@ -39,7 +39,7 @@ export function StyleAdvisorForm() {
   const { toast } = useToast();
 
   useEffect(() => {
-    if (state.message && !state.data) {
+    if (state.message && !state.data && !state.errors?.roomDescription) {
        toast({
         variant: "destructive",
         title: "Error",
@@ -101,19 +101,6 @@ export function StyleAdvisorForm() {
           </div>
         </div>
       )}
-
-      {state.message && !state.data && !state.errors?.roomDescription && (
-         <Card className="mt-8 bg-destructive/10 border-destructive">
-            <CardHeader className="flex flex-row items-center gap-4">
-                <AlertTriangle className="h-8 w-8 text-destructive" />
-                <div>
-                    <CardTitle className="text-destructive">Error al generar sugerencias</CardTitle>
-                    <CardDescription className="text-destructive/80">{state.message}</CardDescription>
-                </div>
-            </CardHeader>
-         </Card>
-      )}
-
     </div>
   );
 }
