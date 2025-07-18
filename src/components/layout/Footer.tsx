@@ -43,7 +43,6 @@ export default function Footer() {
                   WhatsApp: +1 (849) 886-5556
                 </a>
               </li>
-              <li>Showrooms en Asunción y Encarnación</li>
             </ul>
           </div>
           <div className="space-y-2">
