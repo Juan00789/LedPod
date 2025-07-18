@@ -36,7 +36,7 @@ export default function Footer() {
             <h4 className="font-semibold font-headline">Contacto</h4>
             <ul className="space-y-1 text-sm text-muted-foreground">
               <li>Email: info@ledpop.com</li>
-              <li>Teléfono: 0983 233 433</li>
+              <li>Teléfono: +1 (809) 739-3833</li>
               <li>WhatsApp: +1 (849) 886-5556</li>
               <li>Showrooms en Asunción y Encarnación</li>
             </ul>
