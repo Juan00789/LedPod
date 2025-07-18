@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="space-y-2">
             <h4 className="font-semibold font-headline">Contacto</h4>
             <ul className="space-y-1 text-sm text-muted-foreground">
-              <li>Email: info@ledpop.com</li>
+              <li>Email: miguelochoa291992@gmail.com</li>
               <li>Teléfono Local: +1(809)7393833</li>
               <li>
                 <a href="https://wa.me/18498865556" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
